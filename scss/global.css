@@ -141,6 +141,53 @@ a {
   box-sizing: border-box;
 }
 
-h3 {
-  color: red;
+body {
+  background-color: rgb(186, 197, 218);
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.container h1 {
+  margin-right: 55px;
+  font-size: 25px;
+}
+.container .aboutus {
+  margin-right: 32px;
+  font-size: 25px;
+  color: rgb(24, 24, 30);
+}
+.container .contact {
+  margin-right: 32px;
+  font-size: 25px;
+  color: rgb(24, 24, 30);
+}
+
+input {
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: rgb(211, 205, 226);
+}
+input .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+::-moz-placeholder {
+  padding: 6px 8px;
+}
+
+::placeholder {
+  padding: 6px 8px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  margin-left: 20px;
+  cursor: pointer;
 }/*# sourceMappingURL=global.css.map */
