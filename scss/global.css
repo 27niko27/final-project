@@ -145,7 +145,7 @@ body {
   background-color: rgb(186, 197, 218);
 }
 
-.container {
+header .container {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
@@ -155,16 +155,30 @@ body {
   justify-content: space-between;
   justify-content: center;
 }
-.container h1 {
+header .container h1 {
   margin-right: 55px;
   font-size: 25px;
 }
-.container .aboutus {
+header .container .aboutus:hover {
+  color: rgb(68, 99, 126);
+}
+header .container .aboutus {
   margin-right: 32px;
   font-size: 25px;
   color: rgb(24, 24, 30);
 }
-.container .contact {
+header .container .contact:hover {
+  color: rgb(68, 99, 126);
+}
+header .container .contact {
+  margin-right: 32px;
+  font-size: 25px;
+  color: rgb(24, 24, 30);
+}
+header .container .news:hover {
+  color: rgb(68, 99, 126);
+}
+header .container .news {
   margin-right: 32px;
   font-size: 25px;
   color: rgb(24, 24, 30);
@@ -289,4 +303,151 @@ input .material-symbols-outlined {
   font-size: 24px;
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+.s-3 {
+  margin-top: 40px;
+}
+.s-3 .container1 {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.s-3 .container1 .image {
+  width: 450px;
+  opacity: 0.8;
+  border-radius: 12px;
+}
+.s-3 .container1 .cardtxt {
+  flex-direction: column;
+}
+.s-3 .container1 .cardtxt .txt1 {
+  font-size: 50px;
+  margin-left: 90px;
+}
+.s-3 .container1 .cardtxt .story {
+  font-size: 28px;
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.s-3 .container1 .cardtxt a {
+  color: rgb(229, 230, 213);
+  border-radius: 5px;
+  margin-left: 90px;
+  font-size: 18px;
+  background-color: rgb(14, 24, 67);
+  padding: 3px;
+}
+
+.s-4part1 {
+  margin-top: 40px;
+}
+.s-4part1 .container4 {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.s-4part1 .container4 .s4card {
+  display: flex;
+  border-radius: 10px;
+  max-width: 750px;
+  width: 40%;
+  margin: 0 auto;
+  background-color: rgb(50, 46, 85);
+  margin-top: 15px;
+}
+.s-4part1 .container4 .s4card .s4title {
+  color: antiquewhite;
+  margin: 0 auto;
+  font-size: 24px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.s-4part2 {
+  margin-top: 35px;
+}
+.s-4part2 .container4 {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.s-4part2 .container4 .card1 {
+  display: flex;
+  flex-direction: column;
+}
+.s-4part2 .container4 .card1 img {
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+}
+.s-4part2 .container4 .card1 .p1 {
+  margin: 0 auto;
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+.s-4part2 .container4 .card1 .p2 {
+  width: 300px;
+  font-size: 17px;
+}
+.s-4part2 .container4 .card2 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.s-4part2 .container4 .card2 img {
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+}
+.s-4part2 .container4 .card2 .p1 {
+  margin: 0 auto;
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+.s-4part2 .container4 .card2 .p2 {
+  width: 300px;
+  font-size: 17px;
+}
+.s-4part2 .container4 .card3 {
+  display: flex;
+  flex-direction: column;
+}
+.s-4part2 .container4 .card3 img {
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+}
+.s-4part2 .container4 .card3 .p1 {
+  margin: 0 auto;
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+.s-4part2 .container4 .card3 .p2 {
+  width: 300px;
+  font-size: 15px;
+}
+
+footer {
+  margin-top: 30px;
+  height: 200px;
+  background-color: rgb(3, 3, 49);
+}
+footer .container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+footer .container .p {
+  display: flex;
+}
+footer .container .p .footerp1 {
+  font-size: 34px;
+  color: aliceblue;
 }/*# sourceMappingURL=global.css.map */
