@@ -10,9 +10,10 @@ header{
         
         justify-content: space-between;
         justify-content: center;
-       h1{
+       .headertitle{
           margin-right: 55px;
           font-size: 25px;
+          color: black;
         }
         .aboutus:hover{
             color: rgb(68, 99, 126);

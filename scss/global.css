@@ -155,9 +155,10 @@ header .container {
   justify-content: space-between;
   justify-content: center;
 }
-header .container h1 {
+header .container .headertitle {
   margin-right: 55px;
   font-size: 25px;
+  color: black;
 }
 header .container .aboutus:hover {
   color: rgb(68, 99, 126);
