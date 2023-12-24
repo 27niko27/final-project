@@ -184,26 +184,21 @@ header .container .news {
   font-size: 25px;
   color: rgb(24, 24, 30);
 }
-
-input {
+header .input {
+  outline: none;
+  width: 450px;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 19px;
   background-color: rgb(211, 205, 226);
   vertical-align: bottom;
 }
-input .material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-}
-
-::-moz-placeholder {
+header ::-moz-placeholder {
   padding: 6px 8px;
 }
-
-::placeholder {
+header ::placeholder {
   padding: 6px 8px;
 }
-
-.material-symbols-outlined {
+header .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   margin-left: 20px;
   cursor: pointer;
@@ -335,11 +330,11 @@ input .material-symbols-outlined {
 }
 .s-3 .container1 .cardtxt a {
   color: rgb(229, 230, 213);
-  border-radius: 5px;
+  border-radius: 10px;
   margin-left: 90px;
   font-size: 18px;
   background-color: rgb(14, 24, 67);
-  padding: 3px;
+  padding: 10px;
 }
 
 .s-4part1 {
@@ -386,15 +381,17 @@ input .material-symbols-outlined {
   border-radius: 10px;
   width: 300px;
   height: 400px;
+  margin-bottom: 15px;
 }
 .s-4part2 .container4 .card1 .p1 {
   margin: 0 auto;
   font-size: 27px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .s-4part2 .container4 .card1 .p2 {
   width: 300px;
   font-size: 17px;
+  margin-bottom: 15px;
 }
 .s-4part2 .container4 .card2 {
   margin-top: 40px;
@@ -405,15 +402,17 @@ input .material-symbols-outlined {
   border-radius: 10px;
   width: 300px;
   height: 400px;
+  margin-bottom: 15px;
 }
 .s-4part2 .container4 .card2 .p1 {
   margin: 0 auto;
   font-size: 27px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .s-4part2 .container4 .card2 .p2 {
   width: 300px;
   font-size: 17px;
+  margin-bottom: 15px;
 }
 .s-4part2 .container4 .card3 {
   display: flex;
@@ -423,32 +422,15 @@ input .material-symbols-outlined {
   border-radius: 10px;
   width: 300px;
   height: 400px;
+  margin-bottom: 15px;
 }
 .s-4part2 .container4 .card3 .p1 {
   margin: 0 auto;
   font-size: 27px;
   margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .s-4part2 .container4 .card3 .p2 {
   width: 300px;
   font-size: 15px;
-}
-
-footer {
-  margin-top: 30px;
-  height: 200px;
-  background-color: rgb(3, 3, 49);
-}
-footer .container {
-  max-width: 1300px;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-}
-footer .container .p {
-  display: flex;
-}
-footer .container .p .footerp1 {
-  font-size: 34px;
-  color: aliceblue;
 }/*# sourceMappingURL=global.css.map */
