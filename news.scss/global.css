@@ -225,6 +225,7 @@ header .material-symbols-outlined {
   color: aliceblue;
   margin: 0 auto;
   padding: 7px;
+  cursor: context-menu;
 }
 
 .s-1part2 {
@@ -256,6 +257,7 @@ header .material-symbols-outlined {
   border: 5px solid rgb(88, 86, 152);
   padding: 10px;
   font-size: 25px;
+  cursor: context-menu;
 }
 .s-1part2 .container .s-1main .pes .p2 {
   background-color: rgb(66, 63, 144);
@@ -266,6 +268,7 @@ header .material-symbols-outlined {
   padding: 10px;
   font-size: 28px;
   align-items: baseline;
+  cursor: context-menu;
 }
 
 .s-2part1 {
@@ -289,6 +292,7 @@ header .material-symbols-outlined {
   margin: 0 auto;
   font-size: 40px;
   color: aliceblue;
+  cursor: context-menu;
 }
 
 .s-2part2 {
@@ -308,12 +312,83 @@ header .material-symbols-outlined {
   border: 5px solid rgb(118, 118, 193);
   border-radius: 10px;
   background-color: rgb(43, 41, 118);
-  font-size: 35px;
+  font-size: 33px;
   padding: 8px;
+  cursor: context-menu;
 }
 .s-2part2 .container .main img {
   margin-left: 10px;
   border-radius: 10px;
   width: 400px;
-  height: 630px;
+  height: 530px;
+}
+
+footer {
+  background-color: rgb(48, 54, 148);
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  border-top: 7px solid rgb(81, 79, 111);
+  display: flex;
+}
+footer .container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .ps {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer .container .ps p {
+  color: white;
+  font-size: 26px;
+}
+footer .container .footerhelp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .container .footerhelp .help {
+  color: white;
+  font-size: 30px;
+}
+footer .container .footerhelp a {
+  padding: 10px;
+  color: aliceblue;
+  font-size: 17px;
+}
+footer .container .used {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .container .used p {
+  color: white;
+  font-size: 30px;
+}
+footer .container .used a {
+  padding: 10px;
+  color: aliceblue;
+  font-size: 20px;
+}
+footer .container .soc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .container .soc p {
+  color: white;
+  font-size: 30px;
+}
+footer .container .soc a {
+  padding: 10px;
+  color: aliceblue;
+  font-size: 20px;
 }/*# sourceMappingURL=global.css.map */

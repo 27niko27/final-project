@@ -433,4 +433,74 @@ header .material-symbols-outlined {
 .s-4part2 .container4 .card3 .p2 {
   width: 300px;
   font-size: 15px;
+}
+
+footer {
+  background-color: rgb(48, 54, 148);
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  border-top: 7px solid rgb(81, 79, 111);
+  display: flex;
+}
+footer .container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .ps {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer .container .ps p {
+  color: white;
+  font-size: 26px;
+}
+footer .container .footerhelp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .container .footerhelp .help {
+  color: white;
+  font-size: 30px;
+}
+footer .container .footerhelp a {
+  padding: 10px;
+  color: aliceblue;
+  font-size: 17px;
+}
+footer .container .used {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .container .used p {
+  color: white;
+  font-size: 30px;
+}
+footer .container .used a {
+  padding: 10px;
+  color: aliceblue;
+  font-size: 20px;
+}
+footer .container .soc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .container .soc p {
+  color: white;
+  font-size: 30px;
+}
+footer .container .soc a {
+  padding: 10px;
+  color: aliceblue;
+  font-size: 20px;
 }/*# sourceMappingURL=global.css.map */

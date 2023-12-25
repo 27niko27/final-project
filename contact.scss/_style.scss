@@ -70,3 +70,189 @@ header{
           }
         }
         
+
+.s-1part1{
+    margin-top: 40px;
+    .container{
+        border-radius: 10px ;
+        padding: 10px;
+        
+        background-color: rgb(166, 177, 187);
+        @include cont;
+        .contact{
+           h3{
+            font-size: 26px;
+            color: rgb(0, 0, 0);
+           }
+        }
+    }
+}
+.s-1part2{
+    
+    margin-top: 20px;
+    .container{
+        padding: 10px;
+        border-radius: 10px;
+       background-color: rgb(79, 140, 194);
+        @include cont;
+       
+            flex-direction: column;
+        .name{
+            width: 100%;
+           h2{
+            padding: 8px;
+            font-size: 26px;
+            color: rgb(0, 0, 0);
+           }
+           .nameinput{
+            width: 90%;
+             padding: 12px;
+             border: 1px solid #c8c9ca;
+             border-radius: 8px;
+             box-sizing: border-box;
+             margin-top: 6px;
+             margin-bottom: 16px;
+             resize: vertical;
+           }
+       }
+       .lastname{
+        h2{
+            font-size: 26px;
+            padding: 8px;
+        }
+        .lastname{
+            width: 90%;
+             padding: 12px;
+             border: 1px solid #c8c9ca;
+             border-radius: 8px;
+             box-sizing: border-box;
+             margin-top: 6px;
+             margin-bottom: 16px;
+             resize: vertical;
+        }
+       }
+       .email{
+        h2{
+            font-size: 26px;
+            padding: 8px;
+        }
+        .emailinput{
+            width: 90%;
+         padding: 12px;
+         border: 1px solid #c8c9ca;
+         border-radius: 8px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+         resize: vertical;
+         margin: 0 auto;
+        }
+       }
+       .subject{
+        h2{
+            font-size: 26px;
+            padding: 8px;
+        }
+        .txtarea{
+            height: 200px;
+            width: 90%;
+            padding: 12px;
+            border: 1px solid #c8c9ca;
+            border-radius: 8px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+           
+        }
+       }
+       button{
+        border-style: none;
+        font-size: 15px;
+        margin-left: 30px;
+      width: 100px;
+        border-radius: 9px;
+       padding: 15px;
+        background-color: rgb(37, 66, 106);
+        cursor: pointer;
+        a{
+            color: white;
+        }
+       }
+    }
+}
+footer{
+    background-color: rgb(48, 54, 148);
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    border-top: 7px solid rgb(81, 79, 111);
+    display: flex;
+     
+    .container{
+        @include cont;
+        justify-content: space-between;
+       
+        .ps{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            p{
+            color: white;
+            font-size: 26px;
+          }
+         }
+         .footerhelp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .help{
+                color: white;
+                font-size: 30px;
+            }
+          
+            a{
+                 padding: 10px;
+                color: aliceblue;
+                font-size: 17px;
+            }
+         }
+         .used{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            p{
+                color: white;
+                font-size: 30px;
+            }
+          
+            a{
+                 padding: 10px;
+                color: aliceblue;
+                font-size: 20px;
+            }
+         }
+       .soc{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        p{
+            color: white;
+            font-size: 30px;
+        }
+      
+        a{
+             padding: 10px;
+            color: aliceblue;
+            font-size: 20px;
+        }
+       }
+       
+        
+      
+    }
+}
+        
